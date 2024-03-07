@@ -1,0 +1,36 @@
+{
+	"fields" : 
+	[
+		{
+			"len" : 4,
+			"name" : "id",
+			"offset" : 0,
+			"type" : "ints",
+			"visible" : true
+		},
+		{
+			"len" : 4,
+			"name" : "age",
+			"offset" : 4,
+			"type" : "ints",
+			"visible" : true
+		},
+		{
+			"len" : 4,
+			"name" : "name",
+			"offset" : 8,
+			"type" : "chars",
+			"visible" : true
+		},
+		{
+			"len" : 4,
+			"name" : "score",
+			"offset" : 12,
+			"type" : "floats",
+			"visible" : true
+		}
+	],
+	"indexes" : null,
+	"table_id" : 0,
+	"table_name" : "t_basic"
+}
