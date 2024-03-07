@@ -1,0 +1,5 @@
+if(EXISTS "/home/dgk/MiniOB/miniob/build/unittest/bplus_tree_test[1]_tests.cmake")
+  include("/home/dgk/MiniOB/miniob/build/unittest/bplus_tree_test[1]_tests.cmake")
+else()
+  add_test(bplus_tree_test_NOT_BUILT bplus_tree_test_NOT_BUILT)
+endif()
